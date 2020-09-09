@@ -1,0 +1,21 @@
+.container{
+        position: relative;
+        width:40%;
+        top:5%;
+        left:1%;
+        background-color:pink;
+        background-image:url('vaibhav.webp');
+        background-size: cover;
+}
+button{
+         color:red;
+         background-color:palegoldenrod;
+}
+h1{
+    color:red;
+    font-family:bold;
+}
+
+.red{
+     background-color:darkseagreen;
+}

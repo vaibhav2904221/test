@@ -1,0 +1,48 @@
+.container{
+    position:relative;
+    top:1%;
+    width:80%;
+}
+
+table{
+    position:relative;
+    top: 2%;
+    left: 20%;
+    width:60%;
+    background-color: grey;
+    font-family: 'helvenica' 'verdana' ;
+}
+table,th,td{
+    border:2px solid papayawhip;
+    border-collapse: collapse;
+    text-align:center;
+}
+th{
+    color:lightgray;
+}
+
+
+.vaibhav{
+    background-color: rosybrown;
+}
+
+button{
+        position:relative;
+        left:5% ;
+}
+
+.back{
+    background-color:rosybrown;
+}
+
+.gupta{
+    
+    background-color:yellow;
+    margin:5px;
+}
+
+.look{
+    
+    background-color:yellow;
+    margin:5px;
+}

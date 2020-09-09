@@ -1,0 +1,26 @@
+<div class="back" *ngIf="isloggedIn">
+  <button type="submit"  class="btn btn-outline-danger gupta" (click)="additems()">Add items</button><br><br>
+  <button type="submit"  class="btn btn-outline-danger look"  (click)="logout()">Signout</button>
+<div class="container">
+      <table>
+      <tr>
+        <th>Title</th>
+        <th>Icon</th>
+        <th>Start Date</th>
+        <th>End Date</th>
+        <th>Actions</th>
+      </tr>
+      <tr *ngFor="let item  of showData">
+        <td>{{item.title}}</td>
+        <td>{{item.icon}}</td>
+        <td>{{item.startdate}}</td>
+        <td>{{item.enddate}}</td>
+        <td>
+          <button class="btn btn-outline-primary vaibhav"(click)="OnEdit(item)">Edit</button>&nbsp;
+          <button class="btn btn-outline-danger vaibhav"(click)="onDelete(item.$key)">Delete</button>
+        </td>
+       </tr>  
+    </table>
+  </div>
+  <br><br>&nbsp;
+</div>
